@@ -5,7 +5,6 @@
 }
 
 
-/* Header */
 header {
     width: 100%;
     background-color: #f5f5f5;
@@ -13,7 +12,6 @@ header {
     
 }
 
-/* Nav container */
 nav {
     max-width: 1200px;
     margin: auto;
@@ -23,7 +21,7 @@ nav {
     align-items: center;
 }
 
-/* Logo */
+
 .logo a {
     text-decoration: none;
     font-size: 30px;
@@ -31,14 +29,14 @@ nav {
     
 }
 
-/* Nav menu */
+
 .nav-bar {
     list-style: none;
     display: flex;
     gap: 25px;
 }
 
-/* Nav links */
+
 .nav-bar li a {
     text-decoration: none;
     font-size: 14px;
@@ -46,7 +44,140 @@ nav {
     transition: 0.3s;
 }
 
-/* Hover effect */
 .nav-bar li a:hover {
     color: #000;
+}
+
+.hero {
+    background-color: #fefefe;
+    padding: 60px 20px;
+    text-align: center;
+    width: 100%;
+}
+
+/* HERO SECTION */
+
+.hero {
+    width: 100%;
+    min-height: 90vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 50px 30px;
+}
+
+/* HERO CONTAINER */
+
+.hero-content {
+    max-width: 1200px;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
+}
+
+/* LEFT CONTENT */
+
+.content1 {
+    max-width: 350px;
+}
+
+.content1 p:first-child {
+    color: #666;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.head{
+    text-align: left;
+}
+
+.heading1 {
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.sub-heading1 {
+    color: #5a5cff;
+    font-size: 28px;
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+.content1 p {
+    line-height: 1.4;
+    color: #666;
+    margin-bottom: 30px;
+    text-align: left;
+    
+}
+
+/* BUTTONS */
+
+.button-group {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.btn-primary {
+    background: #5a5cff;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-secondary {
+    border: 2px solid #5a5cff;
+    color: #5a5cff;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* SOCIAL BUTTONS */
+
+.social-links {
+    display: flex;
+    gap: 15px;
+}
+
+.social-links a {
+    text-decoration: none;
+    border: 2px solid #5a5cff;
+    color: #5a5cff;
+    padding: 8px 18px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+/* RIGHT CIRCLE */
+
+.profile-circle {
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+
+    background: orange;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 60px;
+    color: white;
+    font-weight: bold;
+
+    border: 5px solid #5a5cff;
+
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
 }
