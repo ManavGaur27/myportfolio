@@ -126,7 +126,7 @@ nav {
     margin-bottom: 30px;
 }
 
-.btn-primary {
+.button-first {
     background: #5a5cff;
     color: white;
     padding: 12px 24px;
@@ -135,7 +135,7 @@ nav {
     font-weight: bold;
 }
 
-.btn-secondary {
+.button-sec {
     border: 2px solid #5a5cff;
     color: #5a5cff;
     padding: 12px 24px;
