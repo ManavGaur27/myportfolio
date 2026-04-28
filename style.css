@@ -163,8 +163,8 @@ nav {
 /* RIGHT CIRCLE */
 
 .profile-circle {
-    width: 320px;
-    height: 320px;
+    width: 280px;
+    height: 280px;
     border-radius: 50%;
 
     background: orange;
@@ -173,11 +173,11 @@ nav {
     justify-content: center;
     align-items: center;
 
-    font-size: 60px;
+    font-size: 50px;
     color: white;
     font-weight: bold;
 
-    border: 5px solid #5a5cff;
+    border: 3px solid #5a5cff;
 
     box-shadow: 0 0 20px rgba(0,0,0,0.2);
 }
